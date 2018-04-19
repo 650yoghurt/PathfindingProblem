@@ -29,3 +29,10 @@ Expected result:
 - 8 directional movement.
 - Prints map to console with marked found path (@). 
 - Application terminates 
+
+
+*Test Maps:*
+The Maps folder contains 4 test maps, each which have the following start positions:
+- Maps/test0.txt 16 5 16 26
+
+

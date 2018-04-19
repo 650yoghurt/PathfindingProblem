@@ -102,6 +102,7 @@ namespace PathfindingCSharp
             return sb.ToString();
         }
 
+
         private Queue queue;
 
         public bool ComputePath()
@@ -125,7 +126,7 @@ namespace PathfindingCSharp
             if ((x == startPosition.x && y == startPosition.y)) return;
             mapPositions[y, x] = pathChar;
             var k = edgeTo[y, x];
-            drawPath(edgeTo, k.Item1, k.Item2, --i);
+            drawPath(edgeTo, k.Item1, k.Item2);
         }
 
         public bool insideBounds(int i, int j){
