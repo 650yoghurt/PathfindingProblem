@@ -101,9 +101,10 @@ namespace PathfindingCSharp
             return sb.ToString();
         }
 
-        public void ComputePath()
-        {           
+        public bool ComputePath()
+        {
             //TODO: Implement solution here
+            return false;
         }
     };
 }
